@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding:15px;
+    /* overflow: auto;scroll,visible,hidden,auto
+    height: 300px; */
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+}
+
+.total h1{
+    text-align: center;
+}
+.myform input{
+  border: 0.5px solid white;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  padding: 10px;
+  border-radius: 10px;  
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+}
+.check input{
+    scale: 1.4;
+}
+.btn{
+    background-color: gold;
+    color: black;
+    padding: 7px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:black;
+    color:gold;
+    border:1px solid gold;
+}
+.total a{
+    text-decoration: none;
+    text-align: center;
+}
